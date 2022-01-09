@@ -1,8 +1,12 @@
 :root {
-  --header-color: #212121;
-  --heder-link-color: #2196f3;
+  --heder-list-color: #2196f3;
+  --heder-text-color: #212121;
+  --heder-link-color: #757575;
   --first-title-color: #ffffff;
   --second-title-color: #303030;
+  --smal-title-color: #212121;
+  --smal-text-color: #757575;
+  --
 }
 
 body {
@@ -12,6 +16,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .list {
   list-style: none;
 }
@@ -19,100 +24,143 @@ body {
   text-decoration: none;
   color: inherit;
 }
-/*------------header----------*/
-.header-list {
-  color: var(--second-title-color);
-}
 
-.header-link {
+/* РАБОТА--В------------HEADER--------------*/
+
+.header-nav-item, .header-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  color: var(--heder-text-color);
 }
 
 .header-link:hover,
 .header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
 .current-link {
+
+  color: var(--heder-list-color);
+}
+
+.header-item {
   color: var(--heder-link-color);
 }
-/*------------main----------*/
 
-.main-title {
-  font-family: Roboto;
-  font-style: normal;
+/* НАЧАЛО--В------------MAIN--------------*/
+
+.about-list,
+.prices-list,
+.reasons-list,
+.futer-list {
+  list-style: none;
+}
+
+/* РАБОТА--В------------HERO--------------*/
+.hero {
+  background-color: #2F303A;;
+}
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: #2f303a;
-  color: #ffffff;
+
+  color: #FFFFFF;
 }
 
-.main-btn {
-  font-family: inherit;
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.main-btn:hover,
-.main-btn:focus {
-  background-color: #188ce8;
+  color: #FFFFFF;
 }
 
-.hero-text {
-  font-weight: bold;
+/* РАБОТА--В------------ABOUT--------------*/
+
+.about-title {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.36;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
-}
-.after-text {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+
+  color: var(--smal-title-color);
 }
 
-.section-title {
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--smal-text-color);
+}
+
+/* РАБОТА--В------------PRICES--------------*/
+
+.prices-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
-.section-name {
+/* РАБОТА--В------------REASONS--------------*/
+
+.reasons-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.footer-list 
+
+.reasons-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  
   color: #212121;
 }
-.section-name-text {
+
+.reasons-name-text {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
-}
-/*---------footer-------*/
 
-.footer-link {
+color: #757575;
+}
+
+/* РАБОТА--В------------FOOTER--------------*/
+.footer {
+background-color: #2F303A;
+}
+
+.footer-list {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  list-style: none;
+  color: #FFFFFF;
+
 }
