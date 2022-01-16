@@ -176,6 +176,29 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--black-text-color);
-  background-color: var(--portfolio-btn-color);
+
   cursor: pointer;
+}
+
+.titel-portfolio {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--black-text-color);
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.current-link {
+  color: var(--white-bg-color);
+  background-color: var(--acent-color);
 }
